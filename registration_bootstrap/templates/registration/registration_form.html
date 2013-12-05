@@ -6,7 +6,7 @@
 {% block content %}
 
 <div class="row">
-    <div class="span12 ">
+    <div class="col-md-12">
         <h1>{% block header %}Registration{% endblock %}</h1>
         <form class="form-horizontal" method="post" action="{% url 'registration_register' %}">
             {% csrf_token %}

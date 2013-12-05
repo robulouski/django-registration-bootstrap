@@ -5,10 +5,11 @@
 
 {% block content %}
     <div class="row">
-        <div class="span6"> 
+        <div class="col-md-6"> 
              <p>Congratulations, your account has been activated.</p>
-
-             <p><a class="btn btn-success" href="{% url 'login' %}">Login</a></p>
+			 <p><a href="{% url 'login' %}" class="btn btn-success">
+                  role="button">Login</a>
+			 </p>
         </div>
     </div>
 {% endblock %}
